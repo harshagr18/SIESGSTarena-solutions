@@ -26,7 +26,7 @@ for o in range(u):
         if intercept[i] == 0:
             j = i+1
             while j < a:
-                if left[j] < right[i]:
+                if left[j] <= right[i]:
                     intercept[j] = 1
                 j = j+1
             intercept[i] = 1
