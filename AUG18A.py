@@ -1,4 +1,4 @@
-x = int(input())
+y = int(input())
 avengers = {
     "light"    : "ironman",
     "magic"    : "doctor strange",
@@ -6,10 +6,10 @@ avengers = {
     "stealth"  : "black widow",
     "earth"    : "captain america" 
 }
-for i in range(x):
+for i in range(y):
     rings = []
-    for k in range(5):
+    for k in range(4):
         a = input()
         rings.append(a)
-    for k in range(5):
+    for k in range(4):
         print(avengers[rings[k]])
