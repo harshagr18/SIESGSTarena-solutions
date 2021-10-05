@@ -10,7 +10,7 @@ for _ in range(u):
         if not(personEndTime < startTime or personStartTime > endTime):
             affected += 1
     if affected == 0:
-        print("Safe")
+        print("SAFEST")
     else:
-        print("Isolate",end=" ")
+        print("AKELA CHOD",end=" ")
         print(affected)
